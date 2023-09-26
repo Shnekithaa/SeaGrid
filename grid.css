@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 20px;
+    grid-template-areas: "header header header";
+    background-image: radial-gradient(aqua,pink);
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.img1{
+    grid-area: header;
+    justify-self: center;
+}
+
+.imgsize{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+.headerimg{
+    width: 1222px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.heading{
+    position: absolute;
+    margin-top: -91px;
+    margin-left: 500px;
+    font-size: 45px;
+    font-style: italic;
+}
